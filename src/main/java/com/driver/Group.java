@@ -1,9 +1,9 @@
 package com.driver;
 
-
 public class Group {
     private String name;
     private int numberOfParticipants;
+
 
     public Group() {
     }
@@ -12,6 +12,7 @@ public class Group {
         this.name = name;
         this.numberOfParticipants = numberOfParticipants;
     }
+
 
     public String getName() {
         return name;

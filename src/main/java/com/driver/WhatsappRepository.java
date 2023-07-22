@@ -1,5 +1,6 @@
 package com.driver;
 
+import javax.swing.text.AbstractDocument;
 import java.util.*;
 
 public class WhatsappRepository {
@@ -84,7 +85,7 @@ public class WhatsappRepository {
 
         this.messageId += 1;
 
-        Message message = new Message(this.messageId, content);
+        Message message = new Message(this.messageId,this.content);
 
         return message.getId();
 
